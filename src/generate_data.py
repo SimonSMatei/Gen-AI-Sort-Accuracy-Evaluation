@@ -1,11 +1,26 @@
+'''
+Name: generate_data.py
+Description: Generates data for accuracy testing
+Author: Simon Matei
+Date: 2026-01-25
+'''
+
+### Imports ###
+
 from random import randint as r
 import os
+
+### Script Directory ###
 
 script_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Data")
 
 os.makedirs(script_dir, exist_ok=True)
 
+### Constants ###
+
 TRIAL_NUM = 50
+
+### Generate Data ###
 
 with open(os.path.join(script_dir, "lists_10.txt"), "w") as file:
     for i in range(0, TRIAL_NUM):
