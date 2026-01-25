@@ -15,7 +15,7 @@ This research project evaluates the zero-shot reasoning capabilities of various 
 ### Tech Stack
 * **Development Environment:** Google Antigravity (Agentic IDE)
 * **Language:** Python 3.13.2
-* **Models Tested:** Gemini 3 Pro, Gemini 2.5 Flash, Claude Sonnet 4.5, GPT 5.2)
+* **Models Tested:** Gemini 3 Pro, Gemini 2.5 Flash, Claude Sonnet 4.5, GPT 5.2
 * **Libraries:** google, anthropic, openai, csv, pandas, matplotlib
 
 ---
