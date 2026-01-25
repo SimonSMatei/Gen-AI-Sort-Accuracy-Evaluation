@@ -19,4 +19,7 @@ This research project evaluates the zero-shot reasoning capabilities of various 
 
 ---
 
-**Disclaimer:** This project is still in the early stages so many items are subject to change. This overview provides a plan of action, not all parts have been completed.
+**Project Status:** 🚧 Work In Progress
+> **Phase 1 Complete:** Data generation and LLM benchmarking (N=800 trials) have been executed.
+> 
+> **Phase 2 Pending:** Statistical analysis and failure mode classification are currently underway.
