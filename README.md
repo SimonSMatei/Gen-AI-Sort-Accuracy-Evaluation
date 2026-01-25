@@ -1,5 +1,5 @@
 # Project Overview
-This research project evaluates the zero-shot reasoning capabilities of various Large Language Models (LLMs) when tasked with basic algorithmic operations—specifically, sorting numerical lists. While Generative AI excels at semantic tasks, its ability to perform strict logical operations on token sequences remains a subject of active research. This project quantifies the error rate of models (specific models to be decided) as input complexity increases.
+This research project evaluates the zero-shot reasoning capabilities of various Large Language Models (LLMs) when tasked with basic algorithmic operations—specifically, sorting numerical lists. While Generative AI excels at semantic tasks, its ability to perform strict logical operations on token sequences remains a subject of active research. This project quantifies the error rate of models (Gemini 3 Pro, Gemini 2.5 Flash, Claude Sonnet 4.5, GPT 5.2) as input complexity increases.
 
 ### Objectives
 * **Accuracy Benchmarking:** Measure the sort accuracy of different models across varying list lengths (n=10, 100, 500) and the sort accuracy of sorting a list with guaranteed duplicate numbers.
@@ -14,7 +14,7 @@ This research project evaluates the zero-shot reasoning capabilities of various 
 ### Tech Stack
 * **Development Environment:** Google Antigravity (Agentic IDE)
 * **Language:** Python 3.13.2
-* **Models Tested:** TBD
+* **Models Tested:** Gemini 3 Pro, Gemini 2.5 Flash, Claude Sonnet 4.5, GPT 5.2)
 * **Libraries:** pandas, matplotlib
 
 ---
