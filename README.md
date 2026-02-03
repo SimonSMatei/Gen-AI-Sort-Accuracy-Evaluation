@@ -18,6 +18,13 @@ This research project evaluates the zero-shot reasoning capabilities of various 
 * **Models Tested:** Gemini 3 Pro, Gemini 2.5 Flash, Claude Sonnet 4.5, GPT 5.2
 * **Libraries:** google, anthropic, openai, csv, pandas, matplotlib
 
+### Development Philosophy
+**This project is NOT "Vibe Coded."**
+While AI tools were utilized for syntax acceleration, the **core architecture, testing methodology, and failure analysis logic** were designed and implemented by a human engineer.
+
+* **Code Provenance:** 100% of the logic was reviewed, refactored, and verified by the author.
+* **Role of AI:** Used strictly as an intelligent autocomplete and documentation assistant, not as an autonomous agent.
+
 ---
 
 **Project Status:** 🚧 Work In Progress
