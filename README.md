@@ -18,6 +18,8 @@ This research project evaluates the zero-shot reasoning capabilities of various 
 * **Models Tested:** Gemini 3 Pro, Gemini 2.5 Flash, Claude Sonnet 4.5, GPT 5.2
 * **Libraries:** google, anthropic, openai, csv, pandas, matplotlib
 
+> ⚠️ **Note on Reproducibility (March 2026):** This benchmark was executed using the `gemini-3-pro-preview` endpoint. Google has announced the discontinuation of this specific preview model. If you are running `get_response_data.py` today, you will need to update the model string to the current stable release (e.g., `gemini-3.1-pro-preview`) in the script. The raw data in `results.csv` remains a valid historical record of the preview model's performance.
+
 ### Development Philosophy
 **This project is NOT "Vibe Coded."**
 While AI tools were utilized for syntax acceleration, the **core architecture, testing methodology, and failure analysis logic** were designed and implemented by a human engineer.
